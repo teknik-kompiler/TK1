@@ -1,10 +1,9 @@
 { var a : integer
   var b : integer
-  var c : boolean
+  var c : boolean;
 
   get a
-  if a > b then
-     c := true
+  if then
   else 
      c := false
   end if
