@@ -1,0 +1,5 @@
+{
+  integer func kuadrat ( x : integer ) = x * x;
+  
+  put kuadrat ( 1 )
+}

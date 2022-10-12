@@ -1,0 +1,11 @@
+{
+  var A : integer;
+
+  A := 10
+
+  if (A < 10)
+    then A := 2
+    else A := 3
+
+  put A
+}
