@@ -1,11 +1,11 @@
 {
   var A     : integer
+  integer func kucing = 1
   var B[10] : integer;
 
   A := 0
   repeat
-     B[A] := A*2
-     put B[A]
+     B[kucing(A)] := A*2
      A := A+1
-  until A >= 10
+  until A < 0
 }

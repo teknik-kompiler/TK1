@@ -1,22 +1,18 @@
-{ var a : integer
-  var b : integer
-  var c : boolean;
-
-  get a
-  b := true
-  if a > b then
-     c := true
-  else 
-     c := false
-  end if
-  { var a : integer;
-    a := 5
-    if c then
-       repeat
-          put b
-          b := b*1
-       until b >= a
-    end if
-  }
+{
+  var A   : integer
+  var C : boolean
+  var B[10] : integer;
+  
+  A := 0
+  C := 0
+  repeat
+     B[A + C] := A*2
+     if C > 0 then
+      C := 0
+     else
+      C:=1
+     end if
+     
+     A := A+1
+  until A > 100
 }
-

@@ -1,0 +1,18 @@
+{
+  var A   : integer
+  var C : integer
+  var B[10] : integer;
+  
+  A := 0
+  C := 0
+  repeat
+     B[A + C] := A*2
+     if C > 0 then
+      C := 0
+     else
+      C:=1
+     end if
+     
+     A := A+1
+  until A > 100
+}

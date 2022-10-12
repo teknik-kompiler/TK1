@@ -1,3 +1,7 @@
-Unmatched type at line 6: b
+Unmatched type at line 7: C
+Type of integer expected at line 9: C
+Type of integer expected at line 9: C
+Unmatched type at line 11: C
+Unmatched type at line 13: C
 
-1 error(s) found.
+5 error(s) found.
