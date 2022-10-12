@@ -1,0 +1,17 @@
+{
+  var A[100]    : integer
+  var in        : integer
+  var res       : integer
+  var i         : integer;
+  
+  i := 0
+  get in
+  res := 0
+  repeat
+    get A[i]
+    if A[i] = in then
+      res := i
+    end if
+  until i >= 100
+  put res
+}

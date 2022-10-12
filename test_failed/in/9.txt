@@ -1,0 +1,9 @@
+{
+  var A   : integer
+  var B   : integer
+  
+  get A
+  get B
+  put A
+  put B
+}

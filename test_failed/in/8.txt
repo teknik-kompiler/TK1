@@ -1,0 +1,11 @@
+{
+  var A   : integer
+  var res : integer
+  integer func  kurangisatu ( x : integer ) = x - 1;
+  
+  get A
+  repeat
+    A := kurangisatu(A)
+  
+  put A
+}
